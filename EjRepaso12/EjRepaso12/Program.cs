@@ -41,7 +41,7 @@ namespace EjRepaso12
             diferencia = diferencia - (meses * 31);
             dias = diferencia;
 
-            Console.WriteLine("La diferencia entre " + fecha1 + " y " + fecha2 + " es:");
+            Console.WriteLine("La diferencia entre {0} y {1} es:", fecha1,fecha2);
             Console.WriteLine(años + " años");
             Console.WriteLine(meses + " meses");
             Console.WriteLine(dias + " días.");
